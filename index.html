@@ -5,19 +5,24 @@
 	</head>
 	<style type="text/css">
 		@media (min-aspect-ratio:2/3){
-		    .article {
+		    .tilde-city-article {
 				max-width: 650px;
+				min-height:745px;
 			}
-			.tilde-frame-container iframe {
+			.tilde-city-container iframe {
 				min-height:745px;
 			}
 		}
-		.tilde-frame-container {
+		.tilde-city-article {
+			height: calc(600px + 23vw);
+			max-height:745px;
+		}
+		.tilde-city-container {
 			margin-top:1vw;
 			position: relative;
 			margin-bottom:1vw;
 		}
-		.tilde-frame-container iframe {
+		.tilde-city-container iframe {
 			position: absolute;
 			top:0;
 			left: 0;
@@ -26,10 +31,9 @@
 			max-height:745px;
 			border-width:0;
 		}
-	</style>
 	<body>
-		<div class='article'>		
-			<div class='tilde-frame-container'>
+		<div class='tilde-city-article'>		
+			<div class='tilde-city-container'>
 				<iframe scrolling="no" src='https://nuitrcs.github.io/kellogg_insight_city_automation/'></iframe>
 			</div>
 		</div>
